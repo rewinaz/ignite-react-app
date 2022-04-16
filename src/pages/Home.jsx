@@ -30,7 +30,7 @@ const Home = () => {
           {pathId && <GameDetail pathId={pathId} />}
         </AnimatePresence>
 
-        {searched.length != 0 && (
+        {searched.length !== 0 && (
           <>
             <h2>Searched Games</h2>
             <Games>

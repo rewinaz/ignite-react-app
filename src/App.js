@@ -4,10 +4,9 @@ import Nav from "./components/Nav";
 // styles;
 import GlobalStyles from "./components/GlobalStyles";
 // react router
-import { Route, Routes, useLocation } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
-  const location = useLocation();
   return (
     <div>
       <GlobalStyles />
